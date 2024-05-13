@@ -1,0 +1,38 @@
+.about {
+  flex-direction: column;
+  margin-top: 2em;
+  text-align: center;
+}
+
+.about__name {
+  color: var(--clr-primary);
+}
+
+.about__role {
+  margin-top: 1.2em;
+}
+
+.about__desc {
+  font-size: 1rem;
+  max-width: 600px;
+}
+
+.about__desc,
+.about__contact {
+  margin-top: 1.7em;
+}
+
+.about .link--icon {
+  margin-right: 0.8em;
+}
+
+.about .large-icon {
+  font-size: 2.5rem;
+  margin: 0 0.5rem;
+}
+
+@media (max-width: 600px) {
+  .app .about {
+    margin-top: 2em;
+  }
+}
