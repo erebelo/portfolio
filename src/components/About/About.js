@@ -1,6 +1,6 @@
-import GetAppIcon from '@material-ui/icons/GetApp'
-import GitHubIcon from '@material-ui/icons/GitHub'
-import LinkedInIcon from '@material-ui/icons/LinkedIn'
+import GetAppIcon from '@mui/icons-material/GetApp'
+import GitHubIcon from '@mui/icons-material/GitHub'
+import LinkedInIcon from '@mui/icons-material/LinkedIn'
 import { about } from '../../portfolio'
 import './About.css'
 
