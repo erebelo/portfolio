@@ -1,5 +1,6 @@
 .project {
   padding: 2em;
+  min-width: 350px;
   margin: 0 auto;
   text-align: center;
   box-shadow: var(--shadow);
@@ -30,4 +31,16 @@
 
 .project .link--icon {
   margin-left: 0.5em;
+}
+
+@media (min-width: 657px) and (max-width: 750px) {
+  .project {
+    min-width: 0;
+  }
+}
+
+@media (max-width: 656px) {
+  .project {
+    width: 350px;
+  }
 }

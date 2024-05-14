@@ -1,3 +1,5 @@
+const { REACT_APP_RESUME_LINK: RESUME_LINK } = process.env
+
 const header = {
   // all the properties are optional - can be left empty or deleted
   homepage: 'https://erebelo.com',
@@ -10,8 +12,7 @@ const about = {
   role: 'Senior Software Engineer',
   description: '',
   social: {
-    resume:
-      'https://drive.google.com/file/d/18ydoechmDIgi65uBiH9xfrRaYH3h8qQC/view',
+    resume: RESUME_LINK,
     linkedin: 'https://www.linkedin.com/in/eduardo-rebelo',
     github: 'https://github.com/erebelo',
   },
@@ -21,28 +22,36 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'Spring MongoDB Demo',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'REST API project developed in Java using Spring Boot 3 and MongoDB',
+    stack: ['Java 17', 'Spring Boot 3', 'MongoDB', 'JUnit', 'Mockito'],
+    sourceCode: 'https://github.com/erebelo/spring-mongodb-demo',
+    livePreview:
+      'https://api.erebelo.com/spring-mongodb-demo/swagger-ui/index.html',
   },
   {
-    name: 'Project 2',
+    name: 'Spring Security JWT',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'REST API project developed in Java using Spring Boot 3, Spring Security 6 for JWT Authentication and Authorization, and H2 database',
+    stack: ['Java 17', 'Spring Boot 3', 'Spring Security 6', 'H2 Database'],
+    sourceCode: 'https://github.com/erebelo/spring-security-jwt',
+    livePreview:
+      'https://jwt.erebelo.com/spring-security-jwt/swagger-ui/index.html',
   },
   {
-    name: 'Project 3',
+    name: 'AWS Docker',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'AWS deployment guide using Docker for a Java App and MongoDB instances and Nginx setup as a reverse proxy for HTTP and HTTPS protocols',
+    stack: ['AWS', 'Docker', 'Nginx', 'SSL/TLS Certificate'],
+    sourceCode: 'https://github.com/erebelo/aws-docker',
+  },
+  {
+    name: 'Portfolio',
+    description: 'UI project developed in ReactJS',
+    stack: ['ReactJS'],
+    sourceCode: 'https://github.com/erebelo/portfolio',
+    livePreview: 'https://erebelo.com',
   },
 ]
 
