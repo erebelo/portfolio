@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://erebelo.com",
   "engines": {
-    "npm": ">=10.7.0",
+    "npm": ">=10.5.2",
     "node": ">=20.13.1"
   },
   "dependencies": {
@@ -39,6 +39,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "eslint": "^7.32.0",
     "eslint-config-airbnb": "18.2.1",
     "eslint-config-prettier": "^8.3.0",
