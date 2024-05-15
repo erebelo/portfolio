@@ -42,8 +42,8 @@ const projects = [
   {
     name: 'AWS Docker',
     description:
-      'AWS deployment guide using Docker for a Java App and MongoDB instances and Nginx setup as a reverse proxy for HTTP and HTTPS protocols',
-    stack: ['AWS', 'Docker', 'Nginx', 'SSL/TLS Certificate'],
+      'AWS Deployment Guide Using Docker for Java App, UI App, and MongoDB instances. Additionally, Nginx setup as a reverse proxy for HTTP and HTTPS protocols',
+    stack: ['AWS', 'Docker', 'Nginx', 'Wildcard SSL/TLS Certificate'],
     sourceCode: 'https://github.com/erebelo/aws-docker',
   },
   {
