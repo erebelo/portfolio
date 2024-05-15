@@ -1,10 +1,6 @@
 # Use a lightweight Node.js base image for serving the application
 FROM node:20.13.1-alpine as build
 
-# Set environment variable based on build-time argument
-ARG REACT_APP_RESUME_LINK
-ENV REACT_APP_RESUME_LINK=$REACT_APP_RESUME_LINK
-
 # Set the working directory inside the container
 WORKDIR /app
 
@@ -18,7 +14,7 @@ RUN npm install --production
 COPY . .
 
 # Build the React application
-RUN REACT_APP_RESUME_LINK=${REACT_APP_RESUME_LINK} npm run build
+RUN npm run build
 
 # Use a lightweight Node.js base image for serving the application
 FROM node:20.13.1-alpine
