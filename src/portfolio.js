@@ -42,14 +42,14 @@ const projects = [
   {
     name: 'AWS Docker',
     description:
-      'AWS Deployment Guide Using Docker for Java App, UI App, and MongoDB instances. Additionally, Nginx setup as a reverse proxy for HTTP and HTTPS protocols',
+      'AWS deployment guide using Docker for Java App, UI App, and MongoDB instances. Additionally, Nginx setup as a reverse proxy for HTTP and HTTPS protocols',
     stack: ['AWS', 'Docker', 'Nginx', 'Wildcard SSL/TLS Certificate'],
     sourceCode: 'https://github.com/erebelo/aws-docker',
   },
   {
     name: 'Portfolio',
-    description: 'UI project developed in ReactJS',
-    stack: ['ReactJS'],
+    description: 'UI project developed in React',
+    stack: ['React'],
     sourceCode: 'https://github.com/erebelo/portfolio',
     livePreview: 'https://erebelo.com',
   },
@@ -61,7 +61,7 @@ const skills = [
   'Java',
   'Spring Boot',
   'Spring Security',
-  'NodeJS',
+  'Node.js',
   'Express',
   'AWS Cloud',
   'MongoDB',

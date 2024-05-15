@@ -1,6 +1,6 @@
 # Portfolio
 
-UI project developed in ReactJS.
+UI project developed in React.
 
 ## Requirements
 
